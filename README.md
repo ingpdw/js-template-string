@@ -10,11 +10,12 @@ $npm install js-template-string
 
 ## Usage
 
-### iterate()
+```
+let Tmpl = require( 'js-template-string' );
 ```
 
-let Tmpl = require( 'js-template-string' );
-
+### iterate()
+```
 
 Tmpl.iterate({
     data: [1, 2, 3],
@@ -64,7 +65,7 @@ Tmpl.join( [`hello`, `my`, `template`] );
 //return hellomytemplate
 ```
 
-```
+
 
 ## API
 
