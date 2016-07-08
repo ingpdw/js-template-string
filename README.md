@@ -10,6 +10,7 @@ $npm install js-template-string
 
 ## Usage
 
+### iterate()
 ```
 
 let Tmpl = require( 'js-template-string' );
@@ -22,6 +23,11 @@ Tmpl.iterate({
 
 //return <li>1</li><li>2</li><li>3</li>
 
+```
+
+### iterate()
+
+```
 
 let myData = [
   {name: 'myName', age:40},
@@ -36,7 +42,10 @@ Tmpl.iterate({
 });
 
 //return <li class="myName">40</li><li class="yourName">30</li>
+```
 
+### render()
+```
 
 Tmpl.render({
     data: {name: 'Tom', age: 30},
@@ -44,10 +53,16 @@ Tmpl.render({
       <span>${item.name}</span>
       <span>${item.age}</span>`
 })
-//return <span>Tom</span><span>30</span>
 
+//return <span>Tom</span><span>30</span>
+```
+
+### join()
+```
 Tmpl.join( [`hello`, `my`, `template`] );
+
 //return hellomytemplate
+```
 
 ```
 
