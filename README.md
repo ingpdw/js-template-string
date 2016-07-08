@@ -92,9 +92,6 @@ let options = {
 Tmpl.render( options );
 ```
 
-## Test
-* npm install mocha -g
-* npm test
 
 ## License
 © 2016 ingpdw. MIT License
