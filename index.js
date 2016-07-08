@@ -17,6 +17,10 @@ exports = module.exports = class Template {
     return result.join( '' );
   }
 
+  static conditional( condition, numbani1, numbani2 ){
+    return ( condition )? numbani1: numbani2;
+  }
+
   static encode( numbani ){
     return encodeURIComponent( numbani );
   }

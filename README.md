@@ -72,6 +72,7 @@ Tmpl.join( [`hello`, `my`, `template`] );
 ```
 let Tmpl = require( 'js-template-string' );
 Tmpl.iterate( options );
+Tmpl.conditional( condition, String, String );
 Tmpl.render( options );
 Tmpl.encode( String );
 Tmpl.escape( String );
