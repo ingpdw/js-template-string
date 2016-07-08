@@ -82,7 +82,7 @@ Tmpl.join( Array );
 ## options
 
 * data
-* template:
+* template
 
 ```
 let options = {
